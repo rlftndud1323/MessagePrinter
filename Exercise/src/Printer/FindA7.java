@@ -6,7 +6,7 @@ public class FindA7 {
 			if(inputLine.charAt(i)=='a'||inputLine.charAt(i)=='7'){
 				System.out.println("Error : there is "+inputLine.charAt(i));
 			}
-			
+//커밋테스트
 		}
 	}
 }
