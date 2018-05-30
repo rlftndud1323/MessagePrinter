@@ -12,5 +12,5 @@ public class StarPrinter extends InputPrinter {
 		String starMessage=sb.toString();
 		
 		return starMessage;
-	}
+	} //inputLine으로 들어온 메시지 앞뒤에 ***을 붙임
 }
