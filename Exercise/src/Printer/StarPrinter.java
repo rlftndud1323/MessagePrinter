@@ -1,6 +1,6 @@
 package Printer;
-import com.tmax.pas1.track.one.InputPrinter;
-public class StarPrinter extends InputPrinter {
+
+public class StarPrinter extends InputPrinterWrapper {
 	public StarPrinter(){
 		
 		super("");

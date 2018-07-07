@@ -1,7 +1,8 @@
 package Printer;
-import com.tmax.pas1.track.one.InputPrinter;
+
 import java.io.*;
-public class ReversePrinter2 extends InputPrinter{
+
+public class ReversePrinter2 extends InputPrinterWrapper{
 	private String reverseMessage;
 	public ReversePrinter2(){
 		super(""); 
