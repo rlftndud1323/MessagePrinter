@@ -13,7 +13,7 @@ public class ProgressMain {
 		}else{
 			String printerName=args[0];
 			String message=args[1];
-			
+			//PrinterName과 message를 args로 받아온다
 			if(!(printerName.equalsIgnoreCase("StarPrinter")||printerName.equalsIgnoreCase("ReversePrinter")
 					||printerName.equalsIgnoreCase("InputPrinter"))){
 					System.out.println("Write right printer name");
@@ -23,7 +23,7 @@ public class ProgressMain {
 			IPrinter interfacePrinter;
 			interfacePrinter=new SelectPrinter(printerName, message);
 			interfacePrinter.print();
-			
+			//args로 입력받은 프린터에 메시지를 보내서 가공한 후 알맞은 메시지 출력
 		}
 		
 	}
